@@ -1,0 +1,6 @@
+.container {
+  --margin: 20px;
+  width: calc(100% - var(--margin) * 2);
+
+  margin: 0 auto;
+}

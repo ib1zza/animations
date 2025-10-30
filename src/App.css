@@ -1,0 +1,33 @@
+.background {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  mix-blend-mode: screen;
+}
+
+.background__silk {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: multiply;
+
+}
+.sphere {
+  --sphere-size: min(50vw, 50vh);
+  --sphere-offset: calc(var(--sphere-size) / 2);
+
+  width: var(--sphere-size);
+  height: var(--sphere-size);
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background: white;
+}
+
+.page {
+  width: 100%;
+  min-height: 1000vh;
+  background: #151515;
+}

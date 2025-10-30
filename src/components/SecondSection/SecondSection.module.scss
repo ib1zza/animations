@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border: 1px solid red;
+  margin-top: -50vh;
+}
+
+
+.text {
+  font-size: 5vh;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #dadada;
+  max-width: 50vw;
+  text-align: justify;
+  mix-blend-mode: difference;
+  filter: brightness(2);
+  user-select: none;
+}

@@ -1,0 +1,9 @@
+// TODO: add mixins import
+
+@mixin  borderRadius {
+  border-radius: 20px;
+
+  @media screen and (max-width: 1240px) {
+      border-radius: 50px;
+  }
+}
