@@ -1,0 +1,23 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.img {
+  aspect-ratio: 3 / 4;
+  isolation: isolate;
+  position: relative;
+  mix-blend-mode: normal;
+
+  &__bg {
+    background: white;
+    position: absolute;
+    isolation: isolate;
+
+    inset: 0;
+    z-index: -1;
+  }
+}

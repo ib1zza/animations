@@ -1,0 +1,13 @@
+.products {
+  height: 200vh;
+  //   border: 1px solid red;
+  color: white;
+  mix-blend-mode: difference;
+  padding-top: 25vh;
+
+  &__list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

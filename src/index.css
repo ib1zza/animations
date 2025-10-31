@@ -7,3 +7,12 @@
 #root {
   width: 100%;
 }
+
+body {
+  /* scroll bar hide */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
